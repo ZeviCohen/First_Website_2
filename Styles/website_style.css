@@ -1,0 +1,60 @@
+html{
+    background-color: rgb(22, 212, 212);
+}
+
+h1, h2{
+    text-decoration: underline;
+    text-align: center;
+    color: rgb(16, 219, 60);
+}
+
+p{
+    font-family: Times, Georgia, serif;
+}
+
+li{
+    font-size: 14px;
+}
+
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:14px;
+}
+/* For the div containing most of the home page's content */
+.home_content{
+    margin:auto;
+    border:20px black solid;
+    padding:20px;
+    width:50%;
+}
+
+/* This is to get divs next to each other, spaced apart with all text being centered */
+    .text_center{
+        text-align: center;
+    }
+
+    .div_parent{
+        border:black solid 3px;
+        margin:100px 10px;
+        display: flex;
+    }
+    .side_by_side{
+        flex:1;
+        justify-content: space-between;
+    }
+/* This is for the top of the page, including the general style of the home link */
+    .top_bar{
+        background-color: aquamarine;
+        height: 50px;
+        width:1325px;
+        margin: 0 30px;
+        position:fixed;
+        top: 0;
+        left:25px;
+    }
+    .home_page_link{
+        position: fixed;
+        left:80px;
+        top:5px;
+    }

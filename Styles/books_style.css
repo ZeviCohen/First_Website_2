@@ -1,0 +1,26 @@
+html{
+    background-color: darkcyan;
+}
+
+p {
+    font-weight: bold;
+}
+
+img{
+    height:300px;
+    border: rgba(0, 34, 255, 0.324) 5px solid;
+}
+
+/* Contains all of the books/descriptions*/
+.books{
+    margin:50px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.div_parent{
+    height:375px;
+    padding:20px;
+    border:none;
+    margin:auto;
+}
